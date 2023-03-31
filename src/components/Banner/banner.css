@@ -1,0 +1,13 @@
+.banner {
+  /* background-image: url("C:\Users\Ananya DG\internship\clothinreact\src\assets\bannerimg.jpg"); */
+  height: 600px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner-image {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}

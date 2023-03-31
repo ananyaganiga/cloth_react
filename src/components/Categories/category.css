@@ -1,0 +1,59 @@
+.container-fluid {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  font-size: 13px;
+}
+
+.category {
+  width: 30%;
+  height: 250px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  overflow: hidden;
+}
+.left-text {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  float: left;
+  padding: 1rem;
+}
+.cat-text {
+  font-size: 28px;
+  line-height: 1.1;
+}
+.cat-text {
+  font-size: 28px;
+  line-height: 1.1;
+}
+.men_cat {
+  background-image: url("C:\Users\Ananya DG\internship\clothinreact\src\assets\Men.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+}
+
+.women_cat {
+  background-image: url("C:\Users\Ananya DG\internship\clothinreact\src\assets\women.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+}
+
+.cap_cat {
+  background-image: url("C:\Users\Ananya DG\internship\clothinreact\src\assets\caps.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+}
