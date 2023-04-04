@@ -1,5 +1,7 @@
 import "./category.css";
 import { Link } from "react-router-dom";
+// import { Axios } from "axios";
+// import { useState } from "react";
 
 function Category() {
   return (
@@ -20,14 +22,16 @@ function Category() {
           </div>
 
           <div class="category">
-            <Link to="productlisitng">
-              <div class="women_cat">
-                <div class="left-text">
-                  <span class="cat-text">WOMEN</span>
-                  <span class="cat-text1">Spring 2018</span>
-                </div>
+            {/* <Link to="productlisitng"> */}
+            <div class="women_cat">
+              <div class="left-text">
+                <span class="cat-text">WOMEN</span>
+                <span class="cat-text1">Spring 2018</span>
+                {/* <button onClick={getProduct}>CLICK HERE</button>
+                {productData} */}
               </div>
-            </Link>
+            </div>
+            {/* </Link> */}
           </div>
 
           <div class="category">

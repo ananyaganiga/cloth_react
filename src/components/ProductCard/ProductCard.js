@@ -8,7 +8,7 @@ function ProductCard(props) {
       <div className="prod-info">
         <div className="product-name">
           <p className="product_title">{props.title}</p>
-          <p class="product_price">{props.price}</p>
+          <p class="product_price">{props.body}</p>
         </div>
       </div>
     </div>
