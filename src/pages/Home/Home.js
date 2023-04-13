@@ -10,9 +10,9 @@ function Home() {
       <Navbar />
       <Banner ananyaImg={bannerImg} />
       <Category />
-      <Link to="about">
+      {/* <Link to="about">
         <button>Go to about page</button>
-      </Link>
+      </Link> */}
     </div>
   );
 }

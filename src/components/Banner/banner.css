@@ -11,3 +11,12 @@
   height: 600px;
   object-fit: cover;
 }
+@media only screen and (min-width: 320px) and (max-width: 766px) {
+  .banner {
+    height: 300px;
+    margin-bottom: 10px;
+  }
+  .banner-image {
+    height: 300px;
+  }
+}

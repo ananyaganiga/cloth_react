@@ -1,0 +1,153 @@
+.black-text {
+  display: flex;
+  position: absolute;
+}
+
+.clr-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 1rem;
+  align-items: center;
+  font-size: medium;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+
+  /* top: 50px;
+  right: 73px; */
+}
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+.color-item {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: center;
+  margin-left: 48px;
+}
+.switch-color {
+  display: flex;
+  flex-direction: row;
+  top: 50px;
+  position: absolute;
+  height: 50px;
+  margin-top: 10px;
+  right: 30px;
+}
+.normal-red {
+  background-image: url("C:\Users\Ananya DG\internship\clothinreact\src\assets\red_clr_switch.png");
+  border-radius: 2px;
+  width: 65px;
+  background-size: contain;
+  height: 65px;
+}
+.normal-black {
+  background-image: url("C:\Users\Ananya DG\internship\clothinreact\src\assets\black_clr_switch.png");
+  border-radius: 2px;
+  width: 65px;
+  background-size: contain;
+  height: 65px;
+}
+.normal-blue {
+  background-image: url("C:\Users\Ananya DG\internship\clothinreact\src\assets\blue_clr_switch.png");
+  border-radius: 2px;
+  width: 65px;
+  background-size: contain;
+  height: 65px;
+}
+.normal-white {
+  background-image: url("C:\Users\Ananya DG\internship\clothinreact\src\assets\white_clr_switch.png");
+  border-radius: 2px;
+  width: 65px;
+  background-size: contain;
+  height: 65px;
+}
+.red-active {
+  background-image: url("C:\Users\Ananya DG\internship\clothinreact\src\assets\red_clr_switch.png");
+  border-radius: 2px;
+  width: 65px;
+  background-size: cover;
+  border: 2px solid white;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  height: 65px;
+}
+.black-active {
+  background-image: url("C:\Users\Ananya DG\internship\clothinreact\src\assets\black_clr_switch.png");
+  border-radius: 2px;
+  width: 65px;
+  background-size: cover;
+  border: 2px solid white;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  height: 65px;
+}
+.blue-active {
+  background-image: url("C:\Users\Ananya DG\internship\clothinreact\src\assets\blue_clr_switch.png");
+  height: 65px;
+  border-radius: 2px;
+  width: 65px;
+  background-size: cover;
+  border: 2px solid white;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+}
+.white-active {
+  background-image: url("C:\Users\Ananya DG\internship\clothinreact\src\assets\white_clr_switch.png");
+  height: 65px;
+  border-radius: 2px;
+  width: 65px;
+  background-size: cover;
+  border: 2px solid white;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+}
+.color-heading {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #fff;
+  margin-left: 20px;
+}
+.para-column {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 60px;
+  text-align: right;
+  width: 316px;
+  align-items: flex-end;
+  font-family: sans-serif;
+  color: #ffffff;
+}
+.para-text {
+  display: flex;
+  line-height: 30px;
+}
+.button-prebook {
+  background-color: blanchedalmond;
+  width: 100px;
+  height: 40px;
+}
+.button {
+  display: flex;
+  justify-content: right;
+}
+.head-bold {
+  font-weight: bold;
+  text-align: right;
+}
+.break-line {
+  width: 124px;
+  height: 2px;
+  margin-top: 5px;
+  margin-left: 155px;
+}

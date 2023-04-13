@@ -4,13 +4,13 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals"; //measure the performance of the app
 import { BrowserRouter } from "react-router-dom";
-import Footer from "./components/Footer/footer";
+// import Footer from "./components/Footer/footer";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
     <App />
-    <Footer />
+    {/* <Footer /> */}
   </BrowserRouter>
 );
 
